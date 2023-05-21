@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="contenedor">
+    <div class="contenedor card">
+      <div class="card__imagen">
+        <picture>
+          <source srcset="images/image-product-mobile.jpg" media="(max-width: 800px)">
+          <img src="images/image-product-desktop.jpg" alt="Producto">
+        </picture>
+      </div>
+      <div class="contenedor card__contenido">
+        <p class="span">Pefume</p>
+        <h1 class="titulo">Gabrielle Essence Eau De Parfum</h1>
+        <p class="descripcion">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quo, odit ea, enim hic libero doloribus accusamus quibusdam aliquam non ducimus obcaecati mollitia tempora, repellat nesciunt. Molestias expedita provident voluptatum!
+        </p>
+        <div class="precio">
+          <p class="precio__ahora">$149.99</p>
+          <p class="precio__antes">$169.99</p>
+        </div>
+        <a href="#" class="boton">Add to Cart</a>
+      </div>
+    </div>
+  </main>
+  
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/profile/sebastian25-rgb" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/sebastian25-chinga">Sebastian Chinga</a>.
+  </div>
+</body>
+
+</html>
